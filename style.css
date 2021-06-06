@@ -23,5 +23,33 @@
     --W3: 700;
 }
 body {
-    
+    background: var(--LightGrayishBlue);/*nao e */  
+    font-family: var(--FontFamily); 
+}
+.a-header {
+    background: var(--White);
+    padding: 24px 60px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.a-header__menu {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+
+}
+.a-header__menu li a {
+    text-decoration: none;
+    color: var(--GrayishBlue);
+    font-size: var(--FontSize);
+}
+.a-header__request a {
+    text-decoration: none;
+    color: var(--White);
+    font-size: 14px;
+    padding: 12px 30px;
+    border-radius: 50px;
+    background: linear-gradient(to right, var(--LimeGreen), var(--BrightCyan));
 }
