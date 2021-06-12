@@ -35,7 +35,6 @@ a:focus {
 a:active {
     opacity: 0.5;
 }
-/************************ Header ***********************/
 nav img {
     display: none;
 }
@@ -68,7 +67,7 @@ nav img {
     position: absolute;
     left: 16px;
     width: 0px;
-    bottom: -11px;
+    bottom: 0px;
     height: 5px;
     background: linear-gradient(to right, var(--LimeGreen), var(--BrightCyan))
 }
@@ -86,13 +85,18 @@ nav img {
     border-radius: 50px;
     background: linear-gradient(to right, var(--LimeGreen), var(--BrightCyan));
 }
-/*********** 1st section after header **************/
+.a-header__request a:hover {
+    opacity: 0.6;
+}
 .b-intro {
+    overflow-x: hidden;
     background: var(--VeryLightGray);
     padding: 120px 100px;
     display: flex;
+    align-items: center;
 }
 .b-intro__text {
+    margin-top: -15%;
     width: 35%;
 }
 .b-intro__text h1 {
@@ -113,10 +117,13 @@ nav img {
     width: fit-content;
     text-decoration: none;
     color: var(--White);
-    font-size: var(--FontSize);
-    padding: 16px 34px;
+    font-size: 14px;
+    padding: 12px 32px;
     border-radius: 50px;
     background: linear-gradient(to right, var(--LimeGreen), var(--BrightCyan));
+}
+.b-intro__text a:hover {
+    opacity: 0.6;
 }
 .b-intro__back {
     z-index: 0;
@@ -218,6 +225,10 @@ nav img {
     margin-top: 15px;
     color: var(--DarkBlue);
 }
+.latestArticles-text h3:hover {
+    color: var(--LimeGreen);
+    cursor: pointer;
+}
 .latestArticles-text p {
     color: var(--GrayishBlue);
     margin-top: 15px;
@@ -238,6 +249,7 @@ nav img {
         padding: 120px 70px;
     }
     .b-intro__text, .c-whyUs__phrase {
+        margin-top: unset;
         width: 50%;
         text-align: center;
     }
@@ -278,13 +290,22 @@ nav img {
         font-size: var(--FontSize);
     } 
 }
-
-
-
-
-
-
-
+@media (max-width: 1050px) {
+    .b-intro {
+        overflow-y: hidden;
+        padding: 70px 25px;
+        height: 100%;
+        align-items: unset;
+        flex-direction: column-reverse;
+    }
+    .b-intro__text {
+        margin-top: 8%;
+        align-self: center;
+    }
+    .b-intro__back {
+        display: none;
+    }
+}
 /*********** Mobile navigation ***************/
 @media (max-width: 700px) {
     .a-header { 
@@ -329,18 +350,15 @@ nav img {
     .a-header__request a {
         display: none;
     }
-    .b-intro {
-        padding: 70px 25px;
-        flex-direction: column-reverse;
-    } 
     .b-intro__text, .c-whyUs__phrase {
         width: 100%;
         text-align: center;
     } 
     .b-intro__back {
+        display: block;
         width: 100%;
         margin-top: -70%;
-        margin-left: -30%;
+        margin-left: -32%;
     }
     .b-intro__back :nth-child(1) {
         width: 200%;
@@ -348,7 +366,7 @@ nav img {
     .b-intro__back :nth-child(2) {
         width: 100%;
         top: 18%;
-        left: 30%;
+        left: 32%;
     }
     .c-whyUs {
         padding: 80px 25px;
@@ -363,6 +381,7 @@ nav img {
         margin-top: 25px;
     }
     .d-latestArticles {
+        text-align: center;
         padding: 80px 25px;
         flex-flow: column wrap;
     }
