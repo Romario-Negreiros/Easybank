@@ -89,9 +89,9 @@ nav img {
     opacity: 0.6;
 }
 .b-intro {
-    overflow-x: hidden;
+    overflow: hidden;
     background: var(--VeryLightGray);
-    padding: 120px 100px;
+    padding: 130px 100px;
     display: flex;
     align-items: center;
 }
