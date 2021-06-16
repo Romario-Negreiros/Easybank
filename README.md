@@ -1,9 +1,5 @@
 ## Frontend Mentor Coded by Romario Negreiros with ❤
 
-This is a solution to the [Easybank landing page challenge
-on Frontend Mentor](https://www.frontendmentor.io
-challenges/easybank-landing-page-WaUhkoDN).
-
 ## Overview
 
 ### The challenge
