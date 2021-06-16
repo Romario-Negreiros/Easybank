@@ -468,7 +468,11 @@ nav img {
         font-size: 25px;
     }
     .e-footer {
-        padding: 40px 50px;
+        gap: 0;
+        padding: 40px 40px;
+    }
+    .e-footer :nth-child(n + 1) {
+        margin-top: 15px;
     }
     .e-footer__items {
         width: fit-content;
