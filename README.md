@@ -21,13 +21,13 @@ Users should be able to:
 Here are the screenshots of the final screens of the project
 
 #### On Desktop
-![](.images/desktop.png)
+![](./images/desktop.png)
 
 #### On Mobile
-![](.images/mobile.png)
+![](./images/mobile.png)
 
 #### Navigation menu on mobile
-![](.images/mobileNav.png)
+![](./images/mobileNav.png)
 
 ### Links
 
