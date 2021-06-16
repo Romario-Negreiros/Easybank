@@ -31,8 +31,8 @@ Here are the screenshots of the final screens of the project
 
 ### Links
 
-- Solution URL: [](https://github.com/Romario-Negreiros/Easybank)
-- Live Site URL: [](https://romario-negreiros.github.io/Easybank/)
+- Solution URL: [GITHUB Repository](https://github.com/Romario-Negreiros/Easybank)
+- Live Site URL: [GITHUB Page](https://romario-negreiros.github.io/Easybank/)
 
 ### My process
 
