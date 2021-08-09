@@ -52,7 +52,7 @@ Here are the screenshots of the final screens of the project
 
 ## Author
 
-- Website - [Romario Negreiros](https://meu-portfolio-izui59udw-romario-negreiros.vercel.app) 
+- Website - [Romario Negreiros](https://romario-negreiros.github.io/Romario-frontend/) 
 **Improving a bit everyday, I'll get there**
 
 
